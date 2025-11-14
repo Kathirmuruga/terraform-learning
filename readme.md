@@ -1,3 +1,37 @@
+Terraform uses which files?
+
+Terraform mainly uses “.tf” files.
+
+Common Terraform files
+Purpose	File Name	Description
+Main configuration	main.tf	Contains main resources (EC2, VPC, etc.)
+Variables	variables.tf	Declares input variables
+Outputs	outputs.tf	Defines output values
+Providers	provider.tf	Specifies providers like AWS
+Terraform settings	terraform.tfvars	Stores variable values
+
+Extension: .tf or .tfvars
+
+Ansible uses which files?
+
+Ansible mainly uses YAML (.yml or .yaml) files.
+
+Common Ansible files
+Purpose	File Name	Description
+Playbook	playbook.yml	Main file to run tasks on servers
+Inventory	hosts or inventory	List of servers (INI or YAML format)
+Roles	tasks/main.yml	Task files inside roles
+Variables	vars/main.yml	Variables for roles
+Templates	.j2 (Jinja2 templates)	Templates for config files
+
+Extensions: .yml, .yaml, .j2 for templates
+
+Simple Summary
+
+Terraform → .tf files
+
+Ansible → .yml/.yaml files
+
 சரி 👍
 இப்போது Terraform பற்றி தமிழில் சொல்கிறேன்:
 ________________________________________
